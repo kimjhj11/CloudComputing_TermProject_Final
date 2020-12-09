@@ -26,7 +26,9 @@
 언리얼엔진으로는 2명 이상의 플레이어가 경쟁하는 미로 탈출 게임을 만들었으며, 클라우드 서비스로는 아마존의 AWS를 사용하여 구성하였습니다.   
 
 ![게임 전체 뷰](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/gameView.png?raw=true)   
+-> 미로 탈출 게임
 ![AWS](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/aws.PNG?raw=true)
+-> 
 
 ### 2.2. 개발 내용
 #### 2.2.1. 언리얼 엔진 멀티 플레이 구현
