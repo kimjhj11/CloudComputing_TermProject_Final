@@ -65,13 +65,16 @@ AWS EC2 서비스를 사용하여 클라우드 서버를 구동중입니다.
 서로 다른 플레이어 스타트 포인트에서 시작하여 레벨 중간에 존재하는 유리벽 등을 통해서 서로의 진행 상황을 대략적으로 파악할 수 있으며,   
 최후에는 미로 마지막에서 구체형 로봇 적에게 둘러쌓인 공간에서 각자의 미로가 서로 한길로 이어져 서로를 밀어내며 결승선으로 달리는 경쟁 게임 입니다.
 
-![미로]()
+![미로](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/maze2.PNG?raw=true)
 
 #### 2.3.4. 게임 적 AI
 미로에서 등장하는 구체형 로봇 적의 AI를 구현하였습니다. 각각의 AI가 존재하기에 각자의 루트에서 순찰을 하다가 자신의 감시 범위에 플레이어들이 감지되면,   
 감지 범위에서 벗어나기 전까지 플레이어를 추적하고 플레이어와 접촉하면 플레이어 각각의 HP가 사라지고 만약 자신의 HP가 0이 되면 게임은 종료되고 패배합니다.   
 
-![적AI]() 
+![적AI](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/enemy.PNG?raw=true)    
+![적AI2](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/enemy2.PNG?raw=true) 
+![적AI3](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/ai.png?raw=true)
+-> 적 AI 인식 범위 테스트 블루프린트 
 
 #### 2.3.5. 프로젝트 다이어그램
 
@@ -82,19 +85,20 @@ AWS EC2 서비스를 사용하여 클라우드 서버를 구동중입니다.
 패키징된 게임을 실행하면 다음과 같은 메인화면이 존재합니다.   
 메인화면에서 게임을 접속하거나 혹은 옵션에서 접속할 서버의 아이피 설정이 가능합니다.
 
-![메인화면]() 
+![메인화면](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/main.png?raw=true) 
 
 ### 3.2. 서버 접속
 옵션에서 접속할 서버의 아이피 설정을 하고 게임 서버에 접속합니다.   
 이 예제에서는 AWS EC2로 만든 클라우드 서버가 게임서버가 되기에 EC2 아이피를 설정하여 접속합니다.
+*아래 스크린샷에서는 임의 ip를 임시로 할당하였습니다.
 
-![ip설정]() 
+![ip설정](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/ip.png?raw=true) 
 
 ### 3.3. 플레이!
 이제 플레이 하는 것만 남았습니다.   
 친구를 부르고 미로에서 경쟁하면 됩니다.
 
-![미로경쟁]()
+![미로경쟁](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/play.PNG?raw=true)
 
 ## 4. 필요성 및 사용 방안
 ### 4.1. 필요성
