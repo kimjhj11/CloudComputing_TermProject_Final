@@ -43,7 +43,7 @@
 언리얼 엔진에서 멀티 플레이를 구성하면서 만든 데디케이트 서버를 기존에 예정했던대로, 아마존의 클라우드 서비스인   
 AWS를 활용하여, AWS의 서비스 중 하나인 EC2 서비스를 사용하여 클라우드 서버를 구성하였습니다.   
 
-![EC2]()   
+![EC2](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/ins.PNG?raw=true)   
 -> 아마존 AWS EC2 
 
 #### 2.2.3. 언리얼 엔진 멀티 플레이를 활용한 게임 구현
@@ -78,7 +78,10 @@ AWS EC2 서비스를 사용하여 클라우드 서버를 구동중입니다.
 
 #### 2.3.5. 프로젝트 다이어그램
 
-![다이어그램]()
+![다이어그램](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/d1.PNG?raw=true)   
+-> EC2 가상서버 구현 다이어그램   
+![다이어그램1](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/d2.PNG?raw=true)   
+-> 스팀 플러그인 다이어그램
 
 ## 3. 사용 방법
 ### 3.1. 게임 실행
@@ -123,6 +126,6 @@ AWS EC2 서비스를 사용하여 클라우드 서버를 구동중입니다.
   
   *AWS EC2를 활용한 미로 게임 : <http://naver.me/5Dhx2BPD>   
   *AWS EC2를 활용한 미로 게임(스팀 서버를 활용한 기능도 포함)  : <http://naver.me/5Rrm9DwG>   
-  *두 프로젝트의 내용은 동일합니다. 테스트한 스팀 서버를 활용한 기능의 유무 차이 입니다.   
+  *두 프로젝트의 내용은 동일합니다. 스팀 서버 플러그인 기능의 유무 차이 입니다.   
   
 ###### 20165308 김재혁 / 20163329 홍현준
