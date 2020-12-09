@@ -28,7 +28,7 @@
 ![게임 전체 뷰](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/gameView.png?raw=true)   
 -> 미로 탈출 게임
 ![AWS](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/aws.PNG?raw=true)
--> 
+-> AWS
 
 ### 2.2. 개발 내용
 #### 2.2.1. 언리얼 엔진 멀티 플레이 구현
@@ -58,7 +58,7 @@ AWS를 활용하여, AWS의 서비스 중 하나인 EC2 서비스를 사용하�
 #### 2.3.1. 클라우드 서버   
 AWS EC2 서비스를 사용하여 클라우드 서버를 구동중입니다.
 
-![클라우드 서버]()   
+![클라우드 서버](https://github.com/kimjhj11/CloudComputing_TermProject_Final/blob/main/image/EC2_1.png?raw=true)   
 -> 클라우드 서버
 
 #### 2.3.2. 게임 세부 사항
